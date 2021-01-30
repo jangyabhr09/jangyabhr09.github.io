@@ -1,0 +1,392 @@
+<!DOCTYPE html> 
+<html lang="en-US" xml:lang="en-US" > 
+<head><title></title> 
+<meta  charset="iso-8859-1" /> 
+<meta name="generator" content="TeX4ht (http://www.tug.org/tex4ht/)" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1" /> 
+<link rel="stylesheet" type="text/css" href="mathematicalanalyisis.css" /> 
+<meta name="src" content="mathematicalanalyisis.tex" /> 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML"></script>  
+</head><body 
+>
+<div class="center" 
+>
+<!--l. 17--><p class="noindent" >
+</p>
+<h3 class="likesectionHead"><a 
+ id="x1-1000"></a>Differentiability of a Real function</h3>
+</div>
+<!--l. 21--><p class="noindent" >Definition: let <!--l. 21--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math> be
+defined on an interval <!--l. 21--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>I</mi> <mo 
+class="MathClass-rel">=</mo> <mrow ><mo 
+class="MathClass-open">[</mo><mrow><mi 
+>a</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>b</mi></mrow><mo 
+class="MathClass-close">]</mo></mrow> <mo 
+class="MathClass-rel">&#x2286;</mo> <mi 
+>&#x211D;</mi></math>.
+For any <!--l. 21--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi> <mo 
+class="MathClass-rel">&#x2208;</mo> <mrow ><mo 
+class="MathClass-open">[</mo><mrow><mi 
+>a</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>b</mi></mrow><mo 
+class="MathClass-close">]</mo></mrow></math>
+form the quotient
+<!--tex4ht:inline--></p><!--l. 22--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                        <mfrac><mrow 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>x</mi></mrow></mfrac>   <mspace width="0.33em" class="nbsp" /><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>a</mi> <mo 
+class="MathClass-rel">&#x003C;</mo> <mi 
+>t</mi> <mo 
+class="MathClass-rel">&#x003C;</mo> <mi 
+>b</mi><mo 
+class="MathClass-punc">,</mo><mspace width="0.33em" class="nbsp" /><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2260;</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mspace width="0.33em" class="nbsp" />
+</math>
+<!--l. 24--><p class="nopar" > &amp; define
+<!--tex4ht:inline--></p><!--l. 26--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                        <msup><mrow 
+><mi 
+>f</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><munder class="msub"><mrow 
+><mi class="qopname"> lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+>
+<mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>x</mi></mrow></munder 
+><mfrac><mrow 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+    <mrow 
+><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>x</mi></mrow></mfrac>
+</math>
+
+<!--l. 28--><p class="nopar" > provided that this limit exists. What we have done here is that we associated with the function
+<!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math> another function
+<!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+><mi 
+>f</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+></math> whose domain is
+the set of points <!--l. 29--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>
+at which the limit exists. </p>
+      <ul class="itemize1">
+      <li class="itemize">If the limit exists at <!--l. 31--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>x</mi></math>
+      then <!--l. 31--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math>
+      is said to be differentiable.
+      </li>
+      <li class="itemize"><!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><msup><mrow 
+><mi 
+>f</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+></math>
+      is called the derivative of <!--l. 32--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math>.</li></ul>
+<div class="newtheorem">
+<!--l. 34--><p class="noindent" ><span class="head">
+<a 
+ id="x1-1001r1"></a>
+<span 
+class="cmbx-12">Theorem 1.</span>  </span><span 
+class="cmti-12">If a function is differentiable at a point then it is necessarily</span>
+<span 
+class="cmti-12">continuous at that point.</span>
+</p>
+</div>
+<!--l. 37--><p class="noindent" >
+</p>
+   <div class="proof">
+<!--l. 38--><p class="indent" >   <span class="head">
+<span 
+class="cmti-12">Proof.</span> </span>let <!--l. 38--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math> be
+defined on <!--l. 38--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">[</mo><mrow><mi 
+>a</mi><mo 
+class="MathClass-punc">,</mo><mi 
+>b</mi></mrow><mo 
+class="MathClass-close">]</mo></mrow></math> &amp;
+let also <!--l. 38--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math> be
+differentiable at <!--l. 38--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>c</mi><mo 
+class="MathClass-punc">.</mo></math>
+i.e. </p>
+<div class="center" 
+>
+<!--l. 39--><p class="noindent" >
+</p><!--l. 40--><p class="noindent" ><!--l. 40--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><munder class="msub"><mrow 
+><mi class="qopname"> lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>c</mi></mrow></munder 
+><mspace width="0.33em" class="nbsp" /><mfrac><mrow 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>c</mi></mrow></mfrac>   </math>
+exists,
+<!--l. 40--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>a</mi> <mo 
+class="MathClass-rel">&#x003C;</mo> <mi 
+>t</mi> <mo 
+class="MathClass-rel">&#x003C;</mo> <mi 
+>b</mi><mo 
+class="MathClass-punc">,</mo><mspace width="0.33em" class="nbsp" /><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2260;</mo><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></math></p></div>
+
+<!--l. 42--><p class="noindent" >Now </p>
+<div class="center" 
+>
+<!--l. 43--><p class="noindent" >
+</p><!--l. 44--><p class="noindent" ><!--l. 44--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mfrac><mrow 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow>
+    <mrow 
+><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>c</mi></mrow></mfrac>    <mo 
+class="MathClass-bin">&#x22C5;</mo> <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">&#x2192;</mo> <msup><mrow 
+><mi 
+>f</mi></mrow><mrow 
+><mi 
+>&#x2032;</mi></mrow></msup 
+><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">&#x22C5;</mo> <mn>0</mn> <mo 
+class="MathClass-rel">=</mo> <mn>0</mn></math>
+as
+<!--l. 44--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>t</mi> <mo 
+class="MathClass-rel">&#x2192;</mo> <mi 
+>c</mi></math></p></div>
+<!--l. 47--><p class="indent" >   So
+<!--tex4ht:inline--></p><!--l. 47--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                       <munder class="msub"><mrow 
+><mi class="qopname">lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>c</mi></mrow></munder 
+><mfrac><mrow 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow></mrow> 
+    <mrow 
+><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>c</mi></mrow></mfrac>    <mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi> <mo 
+class="MathClass-bin">-</mo> <mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mspace width="0.33em" class="nbsp" /> <mo 
+class="MathClass-rel">=</mo> <mspace width="0.33em" class="nbsp" /><mn>0</mn>
+</math>
+<!--l. 47--><p class="nopar" >
+</p><!--l. 49--><p class="indent" >
+<!--tex4ht:inline--></p><!--l. 49--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+               <mo 
+class="MathClass-rel">&#x21D2;</mo><munder class="msub"><mrow 
+><mi class="qopname"> lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>c</mi></mrow></munder 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-bin">-</mo> <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mspace width="0.33em" class="nbsp" /> <mo 
+class="MathClass-rel">=</mo> <mspace width="0.33em" class="nbsp" /><mn>0</mn> <mo 
+class="MathClass-rel">&#x21D2;</mo><munder class="msub"><mrow 
+><mi class="qopname"> lim</mi><mo> &ApplyFunction;<!--FUNCTION APPLICATION--> </mo> </mrow><mrow 
+><mi 
+>t</mi><mo 
+class="MathClass-rel">&#x2192;</mo><mi 
+>c</mi></mrow></munder 
+><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>t</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mspace width="0.33em" class="nbsp" /> <mo 
+class="MathClass-rel">=</mo> <mspace width="0.33em" class="nbsp" /><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>c</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow>
+</math>
+<!--l. 50--><p class="nopar" > i.e. <!--l. 51--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi></math> is continuous
+at <!--l. 51--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>c</mi></math>.   &#x25A1;
+</p>
+   </div>
+
+<!--l. 54--><p class="noindent" >However the converse is not true .for example
+<!--l. 54--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow><mspace width="0.33em" class="nbsp" /> <mo 
+class="MathClass-rel">=</mo> <mspace width="0.33em" class="nbsp" /><mo 
+class="MathClass-rel">|</mo><mi 
+>x</mi><mo 
+class="MathClass-rel">|</mo></math>, it is
+continuous at <!--l. 54--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="inline" ><mn>0</mn></math>
+but not differentiable there at. It is also possible to construct a nowhere
+differentiable function which is continuous every where
+<!--tex4ht:inline--></p><!--l. 55--><math 
+ xmlns="http://www.w3.org/1998/Math/MathML"  
+display="block" >
+                        <mi 
+>f</mi><mrow ><mo 
+class="MathClass-open">(</mo><mrow><mi 
+>x</mi></mrow><mo 
+class="MathClass-close">)</mo></mrow> <mo 
+class="MathClass-rel">=</mo><m
